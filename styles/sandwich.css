@@ -1,0 +1,37 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+}
+
+#breadOptions {
+	background-color: tan;
+}
+
+#meatOptions {
+	background-color: #E30522;
+}
+
+#cheeseOptions {
+	background-color: #F0E21D;
+}
+
+#veggieOptions {
+	background-color: #5BCF3E;
+}
+
+#condimentOptions {
+	background-color: #F08616;
+}
+
+
+button {
+
+}
+
+div {
+	font-size: 3em;
+}
