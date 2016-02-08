@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sandwich Maker</title>
+	<link rel="stylesheet" href="styles/sandwich.css"> <!-- ALWAYS LINK YOUR OTHER PAGES -->
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700,400italic,700italic,900italic|Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>My Sandwiches!</h1>
+	
+	<!-- This needs to be an empty div to populate through the JS -->
+	
+	<section id="breadOptions">
+		<fieldset>
+			<legend>Bread Options</legend>
+
+			<input class="breadBoxes" type="checkbox" name="wheat" value="wheat">Wheat
+			<input class="breadBoxes" type="checkbox" name="white" value="white">White
+			<input class="breadBoxes" type="checkbox" name="multigrain" value="multigrain">Multigrain
+			<input class="breadBoxes" type="checkbox" name="rye" value="rye">Rye
+			<input class="breadBoxes" type="checkbox" name="sourdough" value="sourdough">Sourdough
+			<input class="breadBoxes" type="checkbox" name="italian" value="italian">Italian
+			<input class="breadBoxes" type="checkbox" name="noBread" value="noBread">No Bread
+		</fieldset>
+	</section>
+
+	<section id="meatOptions">
+		<fieldset>
+			<legend>Meat Options</legend>
+
+			<input class="meatBoxes" type="checkbox" name="" value="ham">Ham
+			<input class="meatBoxes" type="checkbox" name="" value="turkey">Turkey
+			<input class="meatBoxes" type="checkbox" name="" value="bacon">Bacon
+			<input class="meatBoxes" type="checkbox" name="" value="chicken">Chicken
+			<input class="meatBoxes" type="checkbox" name="" value="roastBeef">Roast Beef
+			<input class="meatBoxes" type="checkbox" name="" value="mysteryMeat">Mystery Meat
+			<input class="meatBoxes" type="checkbox" name="" value="noMeat">No Meat
+		</fieldset>
+	</section>
+
+	<section id="cheeseOptions">
+		<fieldset>
+			<legend>Cheese Options</legend>
+
+			<input class="cheeseBoxes" type="checkbox" name="" value="american">American
+			<input class="cheeseBoxes" type="checkbox" name="" value="swiss">Swiss
+			<input class="cheeseBoxes" type="checkbox" name="" value="cheddar">Cheddar
+			<input class="cheeseBoxes" type="checkbox" name="" value="gouda">Gouda
+			<input class="cheeseBoxes" type="checkbox" name="" value="pepperJack">Pepperjack
+			<input class="cheeseBoxes" type="checkbox" name="" value="colby">Colby
+			<input class="cheeseBoxes" type="checkbox" name="" value="noCheese">No Cheese
+		</fieldset>
+	</section>
+
+	<section id="veggieOptions">	
+		<fieldset>
+			<legend>Veggie Options</legend>
+
+			<input class="veggieBoxes" type="checkbox" name="" value="onion">Onion
+			<input class="veggieBoxes" type="checkbox" name="" value="bellPepper">Bell Pepper
+			<input class="veggieBoxes" type="checkbox" name="" value="bananaPepper">Banana Pepper
+			<input class="veggieBoxes" type="checkbox" name="" value="mushroom">Mushroom
+			<input class="veggieBoxes" type="checkbox" name="" value="lettuce">Lettuce
+			<input class="veggieBoxes" type="checkbox" name="" value="tomato">Tomato
+			<input class="veggieBoxes" type="checkbox" name="" value="noVeggies">No Veggies
+		</fieldset>
+	</section>
+
+	<section id="condimentOptions">
+		<fieldset>
+			<legend>Condiments Options</legend>
+
+			<input class="condimentBoxes" type="checkbox" name="" value="ketchup">Ketchup
+			<input class="condimentBoxes" type="checkbox" name="" value="mustard">Mustard
+			<input class="condimentBoxes" type="checkbox" name="" value="mayo">Mayo
+			<input class="condimentBoxes" type="checkbox" name="" value="ranch">Ranch
+			<input class="condimentBoxes" type="checkbox" name="" value="texasPete">Texas Pete
+			<input class="condimentBoxes" type="checkbox" name="" value="bbq">Barbecue Sauce
+			<input class="condimentBoxes" type="checkbox" name="" value="noCondiments">No Condiments
+		</fieldset>
+	</section>
+
+	<button type="submit" id="button">Make my sandwich!</button>
+
+	<div id="finalSandwichPrice"></div>
+	
+	<!-- AND PUT YOUR LINKS IN THE RIGHT PLACES(CSS at the top always and JavaS at the bottom always[before last body tag of course]) -->
+	<script src="javascripts/SandwichMaker.js"></script>
+	<script src="javascripts/DOMhandler.js"></script>
+	<script src="javascripts/bread.js"></script>
+	<script src="javascripts/meat.js"></script>
+	<script src="javascripts/cheese.js"></script>
+	<script src="javascripts/condiments.js"></script>
+	<script src="javascripts/veggies.js"></script>
+	
+</body>
+</html>
